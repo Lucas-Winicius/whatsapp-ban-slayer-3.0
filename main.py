@@ -7,9 +7,9 @@ while escolha < 1 or escolha > 4:
 [ 3 ] = Banir Numero ( Prime )
 [ 4 ] = Desbanir Numero ( Prime )
 Sua escolha: """))
-print('')
-print('')
-print('')
+    print('')
+    print('')
+    print('')
 
 if escolha == 1:
     exec(open('./ban.py', encoding="utf-8").read(), globals())
