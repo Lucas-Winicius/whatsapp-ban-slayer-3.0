@@ -26,6 +26,9 @@ Sua escolha: """))
     print('')
     print('')
     print('')
+    print('CASO QUEIRA COMPRAR ALGUM SCRIPT')
+    print('ME MANDE MSG VIA INSTAGRAM!')
+    print('@slayerkkk_')
 
 if escolha == 1:
     exec(open('ban.py', encoding="utf-8").read(), globals())
