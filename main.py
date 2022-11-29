@@ -20,6 +20,8 @@ while escolha < 1 or escolha > 4:
 [ 2 ] = Desbanir Numero
 [ 3 ] = Banir Numero ( Prime )
 [ 4 ] = Desbanir Numero ( Prime )
+[ 5 ] = Banir Numero (deluxe)
+[ 6 ] = Desbanir Numero (deluxe)
 Sua escolha: """))
     print('')
     print('')
@@ -37,6 +39,12 @@ elif escolha == 3:
 elif escolha == 4:
     exec(open('desban-prime.py', encoding="utf-8").read(), globals())
 
+if escolha == 5:
+    exec(open('ban-deluxe.py', encoding="utf-8").read(), globals())
+
+if escolha == 6:
+    exec(open('desban-deluxe.py', encoding="utf-8").read(), globals())
+    
 else:
     print("Faça uma escolha valida")
     print('Inicie')
