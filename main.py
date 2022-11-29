@@ -37,7 +37,7 @@ elif escolha == 2:
     exec(open('desban.py', encoding="utf-8").read(), globals())
 
 elif escolha == 3:
-    exec(open('number-ban-15.py', encoding="utf-8").read(), globals())
+    exec(open('ban-prime.py', encoding="utf-8").read(), globals())
 
 elif escolha == 4:
     exec(open('desban-prime.py', encoding="utf-8").read(), globals())
