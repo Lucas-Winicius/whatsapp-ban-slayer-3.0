@@ -14,7 +14,7 @@ print ('           ')
 
 escolha = -1
 
-while escolha < 1 or escolha > 4:
+while escolha < 1 or escolha > 6:
     escolha = int(input("""O que você deseja fazer?
 [ 1 ] = Banir Numero
 [ 2 ] = Desbanir Numero
@@ -44,7 +44,7 @@ if escolha == 5:
 
 if escolha == 6:
     exec(open('desban-deluxe.py', encoding="utf-8").read(), globals())
-    
+
 else:
     print("Faça uma escolha valida")
     print('Inicie')
