@@ -53,7 +53,7 @@ def enviar_email():
     msg = email.message.Message()
     msg['Subject'] = 'Olá suporte do whatsapp!'
     msg['From'] = f'{c}'
-    msg['To'] = 'slayerandkr@gmail.com'
+    msg['To'] = 'support@whatsapp.com'
     password = f'{d}'
     msg.add_header ('Content-Type', 'text/html')
     msg.set_payload(corpo_email )
