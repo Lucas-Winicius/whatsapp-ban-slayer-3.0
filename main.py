@@ -31,23 +31,19 @@ Sua escolha: """))
     
 
 if escolha == 1:
-    exec(open('ban.py', encoding="utf-8").read(), globals())
+    exec(open('./scripts/ban.py', encoding="utf-8").read(), globals())
 
 elif escolha == 2:
-    exec(open('desban.py', encoding="utf-8").read(), globals())
+    exec(open('./scripts/desban.py', encoding="utf-8").read(), globals())
 
 elif escolha == 3:
-    exec(open('ban-prime.py', encoding="utf-8").read(), globals())
+    exec(open('./scripts/ban-prime.py', encoding="utf-8").read(), globals())
 
 elif escolha == 4:
-    exec(open('desban-prime.py', encoding="utf-8").read(), globals())
+    exec(open('./scripts/desban-prime.py', encoding="utf-8").read(), globals())
 
 if escolha == 5:
-    exec(open('ban-deluxe.py', encoding="utf-8").read(), globals())
+    exec(open('./scripts/ban-deluxe.py', encoding="utf-8").read(), globals())
 
 if escolha == 6:
-    exec(open('desban-deluxe.py', encoding="utf-8").read(), globals())
-
-else:
-    print("Faça uma escolha valida")
-    print('Inicie')
+    exec(open('./scripts/desban-deluxe.py', encoding="utf-8").read(), globals())
